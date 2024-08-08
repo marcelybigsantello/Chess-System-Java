@@ -12,5 +12,9 @@ public class Piece {
 	public Board getBoard() {
 		return board;
 	}
-	
+
+	public void setPosition(Position position) {
+		this.position = position;
+	}
+
 }
