@@ -41,8 +41,11 @@ public class Board {
 		if (thereIsAPiece(position)) {
 			throw new BoardException("A piece already exists on this position " + position);
 		}
+		System.out.print("Piece: " + piece);
+		System.out.print("\nIt is going to position: [" + position.getRow() + "][" + position.getColumn() + "]");
 		this.pieces[position.getRow()][position.getColumn()] = piece;
 		piece.setPosition(position);
+		System.out.print("\nNew position: " + position);
 	}
 	
 	public Piece removePiece(Position position) {
