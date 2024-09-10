@@ -93,7 +93,7 @@ public class ChessMatch {
 
 		// #SpecialMove En Passant
 		if (movedPiece instanceof Pawn
-				&& (target.getRow() == target.getRow() + 2 || target.getRow() == target.getRow() - 2)) {
+				&& (target.getRow() == source.getRow() + 2 || target.getRow() == source.getRow() - 2)) {
 			enPassantVulnerable = movedPiece;
 		}
 
