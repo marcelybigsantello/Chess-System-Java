@@ -27,6 +27,6 @@ Then, you'll have all the pre requirements needed.
 Example: C:\temp\chess-system\
 - [X] Enter the \bin folder 
 - [X] Execute the following command: java application/Program.
-If you tab, please make sure to delete the extension from the Program file. Ex: Program~~.class~~~
+If you tab, please make sure to delete the extension from the Program file. Ex: Program~~.class~~
 
 Have fun my dear!!
